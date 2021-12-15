@@ -43,7 +43,7 @@
 		<div class="container">
 			
 			<ul class="main-menu">
-				<li class="active"><a href="index.html">Home</a></li>
+				<li class="active"><a href="index.php">Home</a></li>
 				<li><a href="about.html">About Us</a></li>
 				<li><a href="conference.html">Conferences & Output</a></li>
 				<li><a href="functional-knowledge.html">Functional Knowledge</a></li>
@@ -64,7 +64,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
-								<!-- <a href="index.html" class="site-logo"><img src="img/ablue.png" style="width:180px;height:24px;" alt=""></a> -->
+								<!-- <a href="index.php" class="site-logo"><img src="img/ablue.png" style="width:180px;height:24px;" alt=""></a> -->
 								<h2 class="hs-title">Infinity knowledge Hub</h2>
 								<p class="hs-des">Hey there!</p>
 <p class="hs-des">Welcome to Infinity Hub! The Knowledge Cornerstone of AIESEC Sri Lanka.Make yourself at comfortable here.
@@ -126,63 +126,46 @@ Take a tour around and get the most out of it!</p>
 		<div class="container services">
 			<div class="section-title text-center">
 				<h3>OUR VALUES</h3>
-				<p>We live and act according to the following 6 values:</p>
+				<p>We live and act according to the following 4 values:</p>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-sm-6 service-item">
+				<div class="col-lg-6 col-sm-6 service-item">
 					<div class="service-icon">
-						<img src="img/seval.png" alt="1">
+						<img src="img/avalnew/walking.svg" alt="1">
 					</div>
 					<div class="service-content">
-						<h4>Striving For Excellence</h4>
-						<p>We continuously improve through creativity and innovation. We strive to deliver the highest quality performance in everything we do.</p>
+						<h4>Personal Development</h4>
+						<p>In AIESEC, members can develop self-management and interpersonal skills through having  practical learning experiences that complement their university environment to emerge as well-rounded individuals.</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
+				<div class="col-lg-6 col-sm-6 service-item">
 					<div class="service-icon">
-						<img src="img/dival.png" alt="1">
+						<img src="img/avalnew/friends.svg" alt="1">
 					</div>
 					<div class="service-content">
-						<h4>Demonstrating Integrity</h4>
-						<p>We are consistent and transparent in our decisions and actions. We fulfill our commitments and conduct ourselves in a way aligned with what we envision.</p>
+						<h4>Connect With AIESEC Impact</h4>
+						<p>Our mission, values and inclusivity stand out as a great environment for people to learn, connect with others and contribute for a better world through the programs we offer and further leadership opportunities.</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
+				<div class="col-lg-6 col-sm-6 service-item">
 					<div class="service-icon">
-						<img src="img/alval.png" alt="1">
+						<img src="img/avalnew/world-blue.svg" alt="1">
 					</div>
 					<div class="service-content">
-						<h4>Activating Leadership</h4>
-						<p>We lead by example and inspire leadership through actions and results. We take responsibility for developing the leadership potential of others.</p>
+						<h4>Global Network</h4>
+						<p>In AIESEC, members have the chance to connect with people from all over the world during and after their experience, which allows them to build their own local and international network of like-minded youth.</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon">
-						<img src="img/epval.png" alt="1">
-					</div>
-					<div class="service-content">
-						<h4>Enjoying Participation</h4>
-						<p>We create a dynamic and welcoming environment through the active and enthusiastic participation of individuals. We enjoy being involved in our organization.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon">
-						<img src="img/ldval.png" alt="1">
-					</div>
-					<div class="service-content">
-						<h4>Living Diversity</h4>
-						<p>We actively learn from different ways of life and opinions represented in our multicultural environment. We act inclusively, respecting, and actively encouraging the contribution of every individual.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon">
-						<img src="img/asval.png" alt="1">
-					</div>
-					<div class="service-content">
-						<h4>Acting Sustainably</h4>
-						<p>We act in a sustainable way for our organization and society. Our decisions take into account the needs of future generations.</p>
-					</div>
-				</div>
+                <div class="col-lg-6 col-sm-6 service-item">
+                    <div class="service-icon">
+                        <img src="img/avalnew/leader%20experiance.svg" alt="1">
+                    </div>
+                    <div class="service-content">
+                        <h4>Global Network</h4>
+                        <p>An empowered &amp; challenging environment where you can develop your competencies and values of leadership. Our Leadership Development Model offers a clear support system for the learning goals of each of our members.</p>
+                    </div>
+                </div>
+
 			</div>
 		</div>
 	</section>
@@ -198,7 +181,7 @@ Take a tour around and get the most out of it!</p>
 				<!-- widget -->
 				<div class="col footer-widget">
 					<div class="about-widget">
-						<a href="index.html" class="site-logo"><img src="img/ablue.png" align="center" style="width:180px;height:24px;" alt=""></a>
+						<a href="index.php" class="site-logo"><img src="img/ablue.png" align="center" style="width:180px;height:24px;" alt=""></a>
 						<p>AIESEC is a non-governmental not-for-profit organization in consultative status with the United Nations Economic and Social Council (ECOSOC), affiliated with the UN DPI, member of ICMYO, and is recognized by UNESCO. AIESEC International Inc. is registered as a Not-for-profit Organisation under the Canadian Not-for-profit Corporations Act – 2018-02-08, Corporation Number: 1055154-6 and Quebec Business Number (NEQ) 1173457178 in Montreal, Quebec, Canada.© AIESEC 2019 Privacy Policy</p>
 						<div class="social pt-1">
 							<a href="https://twitter.com/aieseclk"><i class="fa fa-twitter-square"></i></a>

@@ -539,7 +539,7 @@ ol {
 }
 
 .service-item .service-icon {
-	width: 45px;
+	width: 60px;
 	float: left;
 }
 
@@ -2006,4 +2006,7 @@ ol {
     color: green;
 }
 
+}
+.mc-font{
+	color:#10506B
 }
