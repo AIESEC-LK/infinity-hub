@@ -9,10 +9,12 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;500;400;700&display=swap');
+
 html,
 body {
 	height: 100%;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -23,8 +25,8 @@ h5,
 h6 {
 	color: #111111;
 	margin: 0;
-	font-weight: 500;
-	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
 }
 
 h1 {
