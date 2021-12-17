@@ -57,7 +57,14 @@
 
             <li><a href="conference.html">Conferences & Output</a></li>
             <li><a href="functional-knowledge.html">Functional Knowledge</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
+                    <a class="dropdown-item" href="contact.html">Meet the Team</a>
+                    <a class="dropdown-item" href="channels.html">Our Channels</a>
+                </div>
+            </li>
         </ul>
     </div>
 </nav>
