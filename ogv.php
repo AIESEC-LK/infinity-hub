@@ -29,29 +29,36 @@
 
 </head>
 <body>
-    <!-- Page Preloder -->
-    
+<nav class="nav-section ">
 
-    <!-- header section -->
-    
-    <!-- header section end-->
+    <div class="container">
 
+        <ul class="main-menu">
+            <li><a href="index.php">Home</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">About Us</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
+                    <a class="dropdown-item" href="about.html">Who We Are</a>
+                    <a class="dropdown-item" href="aiesecway.html">AIESEC Way</a>
+                    <a class="dropdown-item" href="#">Roadmap</a>
+                    <a class="dropdown-item" href="#">History</a>
+                </div>
+            </li>
 
-    <!-- Header section  -->
-    <nav class="nav-section">
-
-        <div class="container">
-            
-            <ul class="main-menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="conference.html">Conferences & Output</a></li>
-                <li class="active"><a href="functional-knowledge.html">Functional Knowledge</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Header section end -->
+            <li><a href="conference.html">Conferences & Output</a></li>
+            <li class="active"><a href="functional-knowledge.html">Functional Knowledge</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
+                    <a class="dropdown-item" href="contact.html">Meet the Team</a>
+                    <a class="dropdown-item" href="channels.html">Our Channels</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 
 
 	<!-- Breadcrumb section -->
@@ -135,6 +142,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 	
 </body>
 </html>

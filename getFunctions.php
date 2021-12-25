@@ -84,7 +84,7 @@ function getTopics($courseId)
             $set1 = "<div class='enroll-list text-white'>";
             $set2 = "<div class='enroll-list text-white'>";
             foreach ($topics as $index => $topic) {
-                if ($index + 1 <= (count($topics) / 2)) {
+                if ($index  <= (count($topics) / 2)) {
                     $t = $topic->getName();
                     $set1 = $set1 . "<div class='enroll-list-item'><span>" . ($index + 1) . "</span><h5>" . $t . "</h5>";
                     $mat=filterMaterial($materials, $topic->getTopicId());
@@ -100,7 +100,7 @@ function getTopics($courseId)
 
                     $set1 = $set1 . "</div>";
                 }
-                elseif ($index + 1 > (count($topics) / 2)) {
+                elseif ($index > (count($topics) / 2)) {
                     $t = $topic->getName();
                     $set2 = $set2 . "<div class='enroll-list-item'><span>" . ($index + 1) . "</span><h5>" . $t . "</h5>";
                     $mat=filterMaterial($materials, $topic->getTopicId());
@@ -140,21 +140,33 @@ function getCMaterials($courseId)
 
 function filterMaterial($materials, $topicId)
 {
-    if ($materials) {
-        $flist = array();
+    try{
+        if ($materials) {
+            $flist = array();
 
-        foreach ($materials as $topic) {
-            $m=array();
-            if ($topic->getTopicId() == $topicId) {
-                foreach ($topic->getMaterials() as $Material) {
+            foreach ($materials as $topic) {
+                $m=array();
+                if ($topic->getTopicId() == $topicId) {
+                    foreach ($topic->getMaterials() as $Material) {
+                        if($Material->getDriveFile()){
+                            array_unshift($m,array($Material->getDriveFile()->getDriveFile()->getTitle(), $Material->getDriveFile()->getDriveFile()->getAlternateLink()));
+                        }
+                        if($Material->getLink()){
+                            array_unshift($m,array($Material->getLink()->getTitle(), $Material->getLink()->getUrl()));
+                        }
 
-                    array_unshift($m,array($Material->getDriveFile()->getDriveFile()->getTitle(), $Material->getDriveFile()->getDriveFile()->getAlternateLink()));
+
+                    }
+                    array_unshift($flist, array($topic->getTitle(),$m));
                 }
-                array_unshift($flist, array($topic->getTitle(),$m));
             }
+            return $flist;
         }
-        return $flist;
     }
+    catch (Exception $e){
+        echo 'ERROR';
+    }
+
 }
 
 function checkext($name,$link){
@@ -172,6 +184,9 @@ function checkext($name,$link){
     elseif($a=="docx"){
         return "<a href= $link><i class='fa fa-file-word-o'></i></a>";
     }
+    else{
+        return "<a href= $link><i class='fa fa-link' aria-hidden='true'></i></a>";
+    }
 }
 
 
@@ -183,3 +198,4 @@ function checkext($name,$link){
 //$a= pathinfo("3.4 Data and Program Performance.mov",PATHINFO_EXTENSION);
 //echo $a;
 //echo checkext("3.4 Data and Program Performance.mov","dsa");
+filterMaterial(getCMaterials(406525878081),450145633553);
