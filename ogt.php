@@ -33,7 +33,7 @@
     
 
     <!-- header section -->
-   
+    
     <!-- header section end-->
 
 
@@ -59,14 +59,14 @@
 		<div class="container">
 			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
             <a href="Functional-knowledge.html"><i></i> Functional Knowledge</a> <i class="fa fa-angle-right"></i>
-            <span>Incoming Global Volunteer</span>
+            <span>Outgoing Global Talent</span>
 		</div>
 	</div>
 	<!-- Breadcrumb section end -->
-<h2 class="hs-title" align="center">Incoming Global Volunteer</h2>
+<h2 class="hs-title" align="center">Outgoing Global Talent</h2>
 <br>
 		<!-- Enroll section -->
-    <section class="enroll-section spad set-bg" data-setbg="img/blog/5bg.png">
+    <section class="enroll-section spad set-bg" data-setbg="img/Blog/3.jpg">
         <div class="container">
             <div class="row">
                 		<style>
@@ -79,84 +79,21 @@
                                 color: #f6783a;
                             }
                         </style>
-    <div class = "row"></div>
-        <div class="col-lg-6">
-                                
-            <div class="enroll-list text-white">
-                <div class="enroll-list-item">
-                    <span>1</span>
-                                    
-                                
-                                <ul><h5><a href="https://drive.google.com/file/d/13qw6ylnEPMm_bnOaVa8MhNmR1qEKJY_V/view?usp=sharing"> AIESEC Way</a></h5></ul>
-                                 </div>
-                        <div class="enroll-list text-white">
-                            <div class="enroll-list-item">
-                                <span>2</span>
-                                
-                                    
-                                    <ul><h5><a href="https://drive.google.com/file/d/1k49vqpaDKAn3WLmuNI4-KIeBqU2weHOK/view?usp=sharing"> Global Volunteer Personas</a></h5></ul>
-                                                                    
-                            </div>
-                            <div class="enroll-list text-white">
-                                <div class="enroll-list-item">
-                                    <span>3</span>
-                                    
-                                        
-                                        <ul><h5><a href="https://drive.google.com/file/d/1OlDxkA8PZd8f4wRlUQK6ZiZSO20GPYak/view?usp=sharing">iGV Value Proposition and Benefits</a></h5></ul>
-                                                                       
-                                </div>
-                            </div>
-                            
-                                   
+
+                <?php
+                include __DIR__ . '/getFunctions.php';
+
+                echo getTopics(406538989184);
+                ?>
+
+
+
                 </div>
-        
-
-            </div>
-        </div>
-
-            <div class="col-lg-6">
-                
-                <div class="enroll-list text-white">
-                    
-                    <div class="enroll-list-item">
-                        <span>4</span>
-                                        
-                                            
-                        <ul><h5><a href="https://drive.google.com/file/d/1oFQL0Xww0KpEI1c99dWO-IPZCsG5EcVL/view?usp=sharing"> New Exchage Standards With Changes</a></h5></ul>
-                                                            
-                </div>
-                <div class="enroll-list text-white">
-                    <div class="enroll-list-item">
-                        <span>5</span>
-                        
-                            
-                            <ul><h5><a href="https://drive.google.com/file/d/1eWVTRCpGdZ9-pcvui2Hqx7pjGe8m0NQ2/view?usp=sharing">Partner Interview</a></h5></ul>
-                            </div>
-                    <div class="enroll-list text-white">
-                        <div class="enroll-list-item">
-                            <span>6</span>
-                            
-                                
-                                <ul><h5><a href="https://drive.google.com/file/d/11oYNi6vPhrlf8QjxN0q23gvmI3ZW8dIz/view?usp=sharing">Partner Standards</a></h5></ul>
-                                                            
-                        </div>          
-                    </div>
-                    
-                </div>
-
-            </div>
-                    
-            
-
-                
-
-                
                 <!-- <div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
                     <img src="img/encroll-img.jpg" alt="">
                 </div>
             </div> -->
         </div>
-    </div>
     </section>
     <!-- Enroll section end -->
  <br> <br>

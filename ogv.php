@@ -33,7 +33,7 @@
     
 
     <!-- header section -->
-   
+    
     <!-- header section end-->
 
 
@@ -59,11 +59,11 @@
 		<div class="container">
 			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
             <a href="Functional-knowledge.html"><i></i> Functional Knowledge</a> <i class="fa fa-angle-right"></i>
-            <span>Incoming Global Talent</span>
+            <span>Outgoing Global Volunteer</span>
 		</div>
 	</div>
 	<!-- Breadcrumb section end -->
-<h2 class="hs-title" align="center">Incoming Global Talent</h2>
+<h2 class="hs-title" align="center">Outgoing Global Volunteer</h2>
 <br>
 		<!-- Enroll section -->
     <section class="enroll-section spad set-bg" data-setbg="img/Blog/3.jpg">
@@ -79,102 +79,14 @@
                                 color: #f6783a;
                             }
                         </style>
-                    
-                <div class="col-lg-6">
-                        
-                    <div class="enroll-list text-white">
-                        <div class="enroll-list-item">
-                            <span>1</span> <!--1-->
-                            <h5></h5> <!--Introduction-->
-            
-                                <ul><h5><a href="https://drive.google.com/file/d/1EBxOrCvnaI3stl2Nkg6OYU2vCgvSzlb3/view?usp=sharing"> History of the Product</a></h5></ul>
-                               </div>
-                        <div class="enroll-list-item">
-                            <span>2</span> <!--1-->
-                            <h5></h5> <!--Introduction-->
-            
-                                <ul><h5><a href="https://drive.google.com/file/d/1vnxfnjBMFbntAkHgJtarXAQ_qTimVATP/view?usp=sharing"> Value Proposition</a></h5></ul>
-                              </div>
 
-                        <div class="enroll-list-item">
-                            <span>3</span> <!--1-->
-                            <h5></h5> <!--Introduction-->
-            
-                                <ul><h5><a href="https://drive.google.com/file/d/1AgZuSRRsZflc4KWsxVSd-OVhPY4Mll-w/view?usp=sharing"> Customer Flow</a></h5></ul>
-                               </div>
+                <?php
+            include __DIR__ . '/getFunctions.php';
 
-                        <div class="enroll-list-item">
-                            <span>4</span> <!--1-->
-                            <h5></h5> <!--Introduction-->
-            
-                                <ul><h5><a href="https://drive.google.com/file/d/1T7Xa8cTXTslNjZtBzGkpwhDK5rp0Pmwe/view?usp=sharing"> SOPs</a></h5></ul>
-                                  </div>
+            echo getTopics(406538989184);
+            ?>
+            </div>
 
-                        <div class="enroll-list-item">
-                            <span>5</span> <!--1-->
-                            <h5></h5> <!--Introduction-->
-            
-                                <ul><h5><a href="https://drive.google.com/file/d/17KVIgd77NESoznSps7VEHioA1YEj6b8C/view?usp=sharing"> Buyer Personas</a></h5></ul>
-                                </div>
-
-                        <div class="enroll-list-item">
-                            <span>6</span> <!--1-->
-                            <h5></h5> <!--Introduction-->
-            
-                                <ul><h5><a href="https://drive.google.com/file/d/1SiaxFDUcCeEew4THAvw0F0YhqgEyZv-f/view?usp=sharing"> Exchange and Partners Standards</a></h5></ul>
-                                </div>
-                    
-                        
-                        
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    
-                    <div class="enroll-list text-white">
-                        
-                        <div class="enroll-list-item">
-                            <span>7</span>
-                            
-                                
-                                <ul><h5><a href="https://drive.google.com/file/d/1BZzrohg64S6lk71E9PW3JQQLASZsNdtL/view?usp=sharing"> Product Profitability</a></h5></ul>
-                               </div>
-
-                        <div class="enroll-list-item">
-                            <span>8</span>
-                            
-                                
-                                <ul><h5><a href="https://drive.google.com/file/d/1WUKXqmt_Yb86_cGzUnN1Td6_2iXK4_UQ/view?usp=sharing"> Sub-Products</a></h5></ul>
-                             </div>
-
-                        <div class="enroll-list-item">
-                            <span>9</span>
-                            
-                                
-                                <ul><h5><a href="https://drive.google.com/file/d/18-pIHwU_pF3-OcyKPprZ5dB4u22ZVrb3/view?usp=sharing"> Supply,Demand and IR</a></h5></ul>
-                               </div>
-
-                        <div class="enroll-list-item">
-                            <span>10</span>
-                            
-                                
-                                <ul><h5><a href="https://drive.google.com/file/d/1XPz3La_VV1cKyaRPVp7rz-1aDgGYd3sv/view?usp=sharing"> Data and Performance Management</a></h5></ul>
-                        </div>
-
-                        <div class="enroll-list-item">
-                            <span>11</span>
-                            
-                                
-                                <ul><h5><a href="https://drive.google.com/file/d/1dlnDACI-nko_Aq_QaK7CHizRnn89YDy8/view?usp=sharing"> XPP Basics</a></h5></ul>
-                              </div>
-                        
-                    </div>
-
-                </div>
-                <!-- <div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
-                    <img src="img/encroll-img.jpg" alt="">
-                </div>
-            </div> -->
         </div>
     </section>
     <!-- Enroll section end -->
