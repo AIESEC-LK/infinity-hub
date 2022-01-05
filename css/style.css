@@ -2066,6 +2066,45 @@ ol {
 	animation:tickhov 600ms ease-in forwards;
 }
 
+/*Roadmap styles*/
+
+.color-white{
+	color: white;!important;
+}
+.image-box{
+	display: flex;
+	justify-content: center;
+}
+.image-box2{
+	display: flex;
+	justify-content: center;
+	height: 55%;
+}
+
+
+.bluebox{
+	border-radius:15px;
+	padding: 20px;
+	background: rgb(71,180,245);
+	background: linear-gradient(47deg, rgba(71,180,245,1) 0%, rgba(19,142,244,1) 100%);
+}
+.greenbox{
+	border-radius:15px;
+	padding: 20px;
+	background: rgb(122,214,154);
+	background: linear-gradient(47deg, rgba(122,214,154,1) 0%, rgba(62,179,153,1) 100%);
+
+}
+.orangebox{
+	border-radius:15px;
+	padding: 20px;
+	background: rgb(254,167,12);
+	background: linear-gradient(47deg, rgba(255,188,51,1) 0%, rgba(250,145,8,1) 100%);
+
+}
+.sm box{
+
+}
 @keyframes hov {
 	0%{fill:var(--col1)}
 	100%{fill:var(--col2)}
