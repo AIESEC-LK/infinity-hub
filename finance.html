@@ -29,14 +29,19 @@
 
 </head>
 <body>
-<nav class="nav-section ">
-
-    <div class="container">
+<nav class="navbar navbar-expand-lg nav-section">
+    <a class="navbar-brand" href="index.php">
+        <img src="img/logo.png" style="height: 30px; padding-left: 30px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars" style="color:#f6783a" aria-hidden="true"></i>
+    </button>
+    <div  class="collapse navbar-collapse" id="navbarSupportedContent" >
 
         <ul class="main-menu">
             <li><a href="index.php">Home</a></li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">About Us</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
                     <a class="dropdown-item" href="about.html">Who We Are</a>
@@ -49,7 +54,7 @@
             <li><a href="conference.html">Conferences & Output</a></li>
             <li class="active"><a href="functional-knowledge.html">Functional Knowledge</a></li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">Contact Us</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
                     <a class="dropdown-item" href="contact.html">Meet the Team</a>

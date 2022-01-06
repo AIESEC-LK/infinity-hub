@@ -304,6 +304,7 @@ ol {
 
 .nav-section {
 	background: #020031;
+	padding: 0;
 }
 
 .nav-section .nav-right {
@@ -1768,7 +1769,7 @@ ol {
 		padding-bottom: 20px;
 	}
 	.main-menu {
-		display: none;
+		/*display: none;*/
 	}
 	.main-menu li {
 		display: block;
@@ -2056,7 +2057,7 @@ ol {
 	fill:#AAB8C2;
 }
 .insta:hover path{
-	animation: instahov 1s ease-in alternate;
+	animation: instahov 1s ease-in forwards;
 }
 .tick path{
 	fill:#AAB8C2;
@@ -2102,7 +2103,7 @@ ol {
 	background: linear-gradient(47deg, rgba(255,188,51,1) 0%, rgba(250,145,8,1) 100%);
 
 }
-.sm box{
+.lm-btn{
 
 }
 @keyframes hov {
@@ -2115,7 +2116,7 @@ ol {
 	30%{fill:#F77737}
 	50%{fill:#FD1D1D}
 	70%{fill:#C13584}
-	90%{fill:#5B51D8}
+	100%{fill:#5B51D8}
 
 }
 @keyframes tickhov {

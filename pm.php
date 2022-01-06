@@ -45,7 +45,7 @@
             <ul class="main-menu">
                 <li><a href="index.php">Home</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">About Us</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
                         <a class="dropdown-item" href="about.html">Who We Are</a>
@@ -58,7 +58,7 @@
                 <li><a href="conference.html">Conferences & Output</a></li>
                 <li class="active"><a href="functional-knowledge.html">Functional Knowledge</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">Contact Us</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
                         <a class="dropdown-item" href="contact.html">Meet the Team</a>
