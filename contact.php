@@ -22,50 +22,15 @@
     <link rel="stylesheet" href="css/style.css"/>
 
 
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg nav-section">
-    <a class="navbar-brand" href="index.php">
-        <img src="img/logo.png" style="height: 30px; padding-left: 30px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars" style="color:#f6783a" aria-hidden="true"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-
-        <ul class="main-menu">
-            <li><a href="index.php">Home</a></li>
-            <li class="nav-item dropdown">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">About Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="about.html">Who We Are</a>
-                    <a class="dropdown-item" href="aiesecway.html">AIESEC Way</a>
-                    <a class="dropdown-item" href="roadmap.html">Roadmap</a>
-                    <!--                    <a class="dropdown-item" href="#">History</a>-->
-                </div>
-            </li>
-
-            <li><a href="conference.html">Conferences & Output</a></li>
-            <li><a href="functional-knowledge.html">Functional Knowledge</a></li>
-            <li class="nav-item dropdown active">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Contact Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="contact.html">Meet the Team</a>
-                    <a class="dropdown-item" href="channels.html">Our Channels</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
+<?php
+require 'common.php';
+renderNavbar("", "", "", "", "active")
+?>
 <div class="site-breadcrumb">
     <div class="container">
         <a href="index.php"><i class="fa fa-home"></i> Home</a>
@@ -82,9 +47,7 @@
             <h3 class="mc-font">AIESEC SRI LANKA</h3>
             <h3 class="mc-font" style="font-weight: lighter">MEMBER COMMITTEE 21.22</h3>
             <img src="img/member/21.22/MC%2021.22%20Team%20Stand.png" style="width: 50%"/>
-
         </div>
-
         <div class="row">
             <div class="col-md-6 col-lg-12">
                 <div class="member">
@@ -92,9 +55,9 @@
                         <div class="member-social">
                             <a href="https://www.facebook.com/banuka.pamuditha"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/banuka_h?utm_medium=copy_link"><i
-                                    class="fa fa-instagram"></i></a>
+                                        class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/banuka-hathurusinghe/"><i
-                                    class="fa fa-linkedin-square"></i></a>
+                                        class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                     <h5>Banuka Hathurusinghe</h5>
@@ -109,9 +72,9 @@
                         <div class="member-social">
                             <a href="https://www.facebook.com/rnipunya"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/banuka_h?utm_medium=copy_link"><i
-                                    class="fa fa-instagram"></i></a>
+                                        class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/randi-thanthrige-23795a18b"><i
-                                    class="fa fa-linkedin-square"></i></a>
+                                        class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                     <h5>Randi Munaweera</h5>
@@ -126,7 +89,7 @@
                         <div class="member-social">
                             <a href="https://www.facebook.com/kaneel.dias"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/kaneeldias?utm_medium=copy_link"><i
-                                    class="fa fa-instagram"></i></a>
+                                        class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/kaneel-dias/"><i class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
@@ -140,9 +103,9 @@
                         <div class="member-social">
                             <a href="https://www.facebook.com/sapz.97.Sep"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/sapna_panditha?utm_medium=copy_link"><i
-                                    class="fa fa-instagram"></i></a>
+                                        class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/sapnamadhurangipanditha"><i
-                                    class="fa fa-linkedin-square"></i></a>
+                                        class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                     <h5>Sapna Madhurangi</h5>
@@ -156,7 +119,7 @@
                             <a href="https://www.facebook.com/hemangi.wimaladharma.5"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/hemi_yo?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/hemangi-wimaladharma"><i
-                                    class="fa fa-linkedin-square"></i></a>
+                                        class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                     <h5>Hemangi Wimaladharma</h5>
@@ -168,11 +131,11 @@
                     <div class="member-pic set-bg" data-setbg="img/member/21.22/Lacksita.jpg">
                         <div class="member-social">
                             <a href="https://www.facebook.com/profile.php?id=100006706606144"><i
-                                    class="fa fa-facebook"></i></a>
+                                        class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/_lackyjon_?utm_medium=copy_link"><i
-                                    class="fa fa-instagram"></i></a>
+                                        class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/lacksita-john-b2171433/"><i
-                                    class="fa fa-linkedin-square"></i></a>
+                                        class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                     <h5>Lacksita John</h5>
@@ -185,7 +148,7 @@
                         <div class="member-social">
                             <a href="https://www.facebook.com/maleesha.rds"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/maleezdsilva?utm_medium=copy_link"><i
-                                    class="fa fa-instagram"></i></a>
+                                        class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/maleesha-randunu"><i class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
@@ -200,9 +163,9 @@
                         <div class="member-social">
                             <a href="https://www.facebook.com/kamesha.samaranayake/"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/kamesha_sam?utm_medium=copy_link"><i
-                                    class="fa fa-instagram"></i></a>
+                                        class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/kamesha-samaranayake/"><i
-                                    class="fa fa-linkedin-square"></i></a>
+                                        class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                     <h5>Kamesha Samaranayake</h5>
@@ -216,7 +179,7 @@
                             <a href="https://www.facebook.com/pium.pamuditha"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/pium_97?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/pium-pamuditha-5477b9188"><i
-                                    class="fa fa-linkedin-square"></i></a>
+                                        class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                     <h5>Pium Pamuditha</h5>
@@ -230,7 +193,7 @@
                             <a href="https://www.facebook.com/Zombiechampz"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/_puna._?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/punsara-kariyawasam/"><i
-                                    class="fa fa-linkedin-square"></i></a>
+                                        class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                     <h5>Punsara Kariyawasam</h5>
@@ -243,7 +206,7 @@
                         <div class="member-social">
                             <a href="https://www.facebook.com/mpansuja"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/_mpansu_?utm_medium=copy_link"><i
-                                    class="fa fa-instagram"></i></a>
+                                        class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/madhuka-pansuja/"><i class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
@@ -257,9 +220,9 @@
                         <div class="member-social">
                             <a href="https://www.facebook.com/sachindematapitiya"><i class="fa fa-facebook"></i></a>
                             <a href="https://instagram.com/sachin.dematapitiya?utm_medium=copy_link"><i
-                                    class="fa fa-instagram"></i></a>
+                                        class="fa fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/sachin-dematapitiya"><i
-                                    class="fa fa-linkedin-square"></i></a>
+                                        class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                     <h5>Sachin Dematapitiya</h5>

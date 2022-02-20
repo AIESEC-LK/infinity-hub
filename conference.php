@@ -23,51 +23,16 @@
 
 </head>
 <body>
-<!-- Page Preloder -->
-
-
-<nav class="navbar navbar-expand-lg nav-section">
-    <a class="navbar-brand" href="index.php">
-        <img src="img/logo.png" style="height: 30px; padding-left: 30px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars" style="color:#f6783a" aria-hidden="true"></i>
-    </button>
-    <div  class="collapse navbar-collapse" id="navbarSupportedContent" >
-
-        <ul class="main-menu">
-            <li><a href="index.php">Home</a></li>
-            <li class="nav-item dropdown">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">About Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="about.html">Who We Are</a>
-                    <a class="dropdown-item" href="aiesecway.html">AIESEC Way</a>
-                    <a class="dropdown-item" href="roadmap.html">Roadmap</a>
-                    <!--                    <a class="dropdown-item" href="#">History</a>-->
-                </div>
-            </li>
-
-            <li class="active"><a href="conference.html">Conferences & Output</a></li>
-            <li><a href="functional-knowledge.html">Functional Knowledge</a></li>
-            <li class="nav-item dropdown">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Contact Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="contact.html">Meet the Team</a>
-                    <a class="dropdown-item" href="channels.html">Our Channels</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
+<?php
+require 'common.php';
+renderNavbar("", "", "active", "", "")
+?>
 <div class="site-breadcrumb">
     <div class="container">
         <a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
         <span>Conferences & Output</span>
     </div>
 </div>
-<!-- Breadcrumb section end -->
 <div class="container">
     <style>
         a {
@@ -80,10 +45,7 @@
             color: #f6783a;
         }
     </style>
-
-
     <div class="row">
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             .btn {
@@ -120,21 +82,10 @@
         <button class="btn success" onclick="location.href='#apc2019';" align="center">APC 2019</button>
 
     </div>
-    <!-- <div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
-        <img src="img/encroll-img.jpg" alt="">
-    </div>
-</div> -->
 </div>
 </section>
-
-<!-- <div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
-    <img src="img/encroll-img.jpg" alt="">
-</div>
-</div> -->
 </div>
 </section>
-
-<!-- Blog page section  -->
 <section class="blog-page-section spad pt-0">
     <div class="container">
         <div class="row">
@@ -144,22 +95,14 @@
                     <div class="post-content">
                         <h3><a href="single-blog.html"></a></h3>
                         <div class="post-meta">
-
-
                         </div>
-
                         <div class="tag"></div>
                     </div>
                     <div class="post-author">
-
                     </div>
-
                 </div>
             </div>
-            <!-- sidebar -->
             <div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
-
-                <!-- widget -->
                 <div class="widget" name="ic21" id="ic21" alt="">
                     &nbsp
                     <h4 class="widget-title">IC - International Congress 2021</h4>
@@ -168,8 +111,6 @@
                         new goals are set, views and experience are shared, which are focused on catering to the
                         interest of global youth and world issues.</p>
                 </div>
-                <!-- widget -->
-                <!-- widget -->
                 <div class="widget">
                     <h4 class="widget-title"></h4>
                     <div class="tags">
@@ -201,22 +142,14 @@
                     <div class="post-content">
                         <h3><a href="single-blog.html"></a></h3>
                         <div class="post-meta">
-
-
                         </div>
-
                         <div class="tag"></div>
                     </div>
                     <div class="post-author">
-
                     </div>
-
                 </div>
             </div>
-            <!-- sidebar -->
             <div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
-
-                <!-- widget -->
                 <div class="widget" name="nlds21" id="nlds21" alt="">
                     &nbsp
                     <h4 class="widget-title">NLDS - National Leadership Development Seminar 2021</h4>
@@ -224,8 +157,6 @@
                         enhance employability and personal development skills of AIESECers. This three-day conference
                         connects 250+ AIESECers through events, workshops and fun activities.</p>
                 </div>
-                <!-- widget -->
-                <!-- widget -->
                 <div class="widget">
                     <h4 class="widget-title"></h4>
                     <div class="tags">
@@ -250,10 +181,7 @@
                     <div class="post-content">
                         <h3><a href="single-blog.html"></a></h3>
                         <div class="post-meta">
-
-
                         </div>
-
                         <div class="tag"></div>
                     </div>
                     <div class="post-author">
@@ -262,18 +190,13 @@
 
                 </div>
             </div>
-            <!-- sidebar -->
             <div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
-
-                <!-- widget -->
                 <div class="widget" name="impactco20" id="impactco20" alt="">
                     &nbsp
                     <h4 class="widget-title">Impactco - Impact Conference 2020</h4>
                     <p>Impactco 2020 is the first ever virtual conference in AIESEC Sri Lanka. This conference will be
                         held on December 11, 2020 to December 13, 2020. </p>
                 </div>
-                <!-- widget -->
-                <!-- widget -->
                 <div class="widget">
                     <h4 class="widget-title"></h4>
                     <div class="tags">
@@ -298,10 +221,7 @@
                     <div class="post-content">
                         <h3><a href="single-blog.html"></a></h3>
                         <div class="post-meta">
-
-
                         </div>
-
                         <div class="tag"></div>
                     </div>
                     <div class="post-author">
@@ -310,18 +230,13 @@
 
                 </div>
             </div>
-            <!-- sidebar -->
             <div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
-
-                <!-- widget -->
                 <div class="widget" name="apc2020" id="apc2020" alt="">
                     &nbsp
                     <h4 class="widget-title">Asia Paciffic Conference 2020 Output</h4>
                     <p>Asia Pacific Confernce is a regional conference which was held on March 25, 2020 to March 29,
                         2020. This is a virtual coference and happend for a period of 5 days.</p>
                 </div>
-                <!-- widget -->
-                <!-- widget -->
                 <div class="widget">
                     <h4 class="widget-title"></h4>
                     <div class="tags">
@@ -341,10 +256,7 @@
                     <div class="post-content">
                         <h3><a href="single-blog.html"></a></h3>
                         <div class="post-meta">
-
-
                         </div>
-
                         <div class="tag"></div>
                     </div>
                     <div class="post-author">
@@ -353,17 +265,13 @@
 
                 </div>
             </div>
-            <!-- sidebar -->
             <div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
-
-                <!-- widget -->
                 <div class="widget" name="nlds2019" id="nlds2019">
                     <h4 class="widget-title">National Leadership Development Seminar 2019 Output</h4>
                     <p>National Leadership Development Seminar was held on OCT 24, 2019 AT 8 AM – OCT 27, 2019 at
                         Carolina Beach Resort & Spa.</p>
                 </div>
-                <!-- widget -->
-                <!-- widget -->
+
                 <div class="widget">
                     <h4 class="widget-title">Days</h4>
                     <div class="tags">
@@ -372,9 +280,6 @@
                         <a href="#">Day 02</a>
                         <a href="#">Day 03</a>
                         <a href="#">Day 04</a>
-                        <!-- <a href="#">SQL DATABASE</a>
-                        <a href="#">MARKETING</a>
-                        <a href="#">DESIGN</a> -->
                     </div>
                 </div>
 
@@ -402,17 +307,12 @@
 
                 </div>
             </div>
-            <!-- sidebar -->
             <div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
-
-                <!-- widget -->
                 <div class="widget" name="apc2019" id="apc2019" alt="">
                     <h4 class="widget-title">Asia Paciffic Conference 2019 Output</h4>
                     <p>Asia Pacific Confernce is a regional conference which was held on March 24, 2019 to March 28,
                         2019 in Thailand through out a period of 5 days time.</p>
                 </div>
-                <!-- widget -->
-                <!-- widget -->
                 <div class="widget">
                     <h4 class="widget-title">Days</h4>
                     <div class="tags">
@@ -436,51 +336,9 @@
     </div>
 </section>
 
-
-<!-- Blog page section end -->
-
-
-<!-- Footer section -->
-<footer class="footer-section">
-    <div class="container footer-top">
-        <div class="row">
-            <!-- widget -->
-            <div class="col footer-widget">
-                <div class="about-widget">
-                    <a href="index.php" class="site-logo"><img src="img/ablue.png" align="center"
-                                                               style="width:180px;height:24px;" alt=""></a>
-                    <p>AIESEC is a non-governmental not-for-profit organization in consultative status with the United
-                        Nations Economic and Social Council (ECOSOC), affiliated with the UN DPI, member of ICMYO, and
-                        is recognized by UNESCO. AIESEC International Inc. is registered as a Not-for-profit
-                        Organisation under the Canadian Not-for-profit Corporations Act – 2018-02-08, Corporation
-                        Number: 1055154-6 and Quebec Business Number (NEQ) 1173457178 in Montreal, Quebec, Canada.©
-                        AIESEC 2019 Privacy Policy</p>
-                    <div class="social pt-1">
-                        <a href="https://twitter.com/aieseclk"><i class="fa fa-twitter-square"></i></a>
-                        <a href="https://www.facebook.com/AIESECLK/"><i class="fa fa-facebook-square"></i></a>
-                        <a href="https://www.instagram.com/aiesecsrilanka/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/aieseclk"><i class="fa fa-linkedin-square"></i></a>
-                        <a href="https://www.youtube.com/c/AIESECSriLanka"><i class="fa fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- widget -->
-
-            <!-- widget -->
-
-        </div>
-        <!-- copyright -->
-        <div class="copyright">
-            <div class="container">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                    All rights reserved</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            </div>
-        </div>
-</footer>
-<!-- Footer section end-->
-
+<?php
+renderFooter();
+?>
 
 <!--====== Javascripts & Jquery ======-->
 <script src="js/jquery-3.2.1.min.js"></script>

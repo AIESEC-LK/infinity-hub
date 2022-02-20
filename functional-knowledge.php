@@ -22,58 +22,20 @@
     <link rel="stylesheet" href="css/style.css"/>
 
 
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 <body>
-<nav class="navbar navbar-expand-lg nav-section">
-    <a class="navbar-brand" href="index.php">
-        <img src="img/logo.png" style="height: 30px; padding-left: 30px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars" style="color:#f6783a" aria-hidden="true"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-
-        <ul class="main-menu">
-            <li><a href="index.php">Home</a></li>
-            <li class="nav-item dropdown">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">About Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="about.html">Who We Are</a>
-                    <a class="dropdown-item" href="aiesecway.html">AIESEC Way</a>
-                    <a class="dropdown-item" href="roadmap.html">Roadmap</a>
-                    <!--                    <a class="dropdown-item" href="#">History</a>-->
-                </div>
-            </li>
-
-            <li><a href="conference.html">Conferences & Output</a></li>
-            <li class="active"><a href="functional-knowledge.html">Functional Knowledge</a></li>
-            <li class="nav-item dropdown">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Contact Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="contact.html">Meet the Team</a>
-                    <a class="dropdown-item" href="channels.html">Our Channels</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
+<?php
+require 'common.php';
+renderNavbar("", "", "", "active", "")
+?>
 <div class="site-breadcrumb">
     <div class="container">
         <a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
         <span>Functional Knowledge</span>
     </div>
 </div>
-<!-- Breadcrumb section end -->
-
 <div class="section-title text-center col-sm-8 col-md-10 col-lg-12" style="text-align: center;">
     <style>
         .hs-new {
@@ -93,7 +55,6 @@
 </div>
 
 
-<!-- Enroll section -->
 <section>
     <div class="container">
         <style>
@@ -214,70 +175,25 @@
             </style>
 
             <button class="btn info" onclick="location.href='igt.php';">Incoming Global Talent</button>
-            <button class="btn warning" onclick="location.href='igtae.html';">Incoming Global Teacher</button>
+            <button class="btn warning" onclick="location.href='igtae.php';">Incoming Global Teacher</button>
             <button class="btn success" onclick="location.href='igv.php';">Incoming Global Volunteer</button>
             <button class="btn info" onclick="location.href='ogt.php';">Outgoing Global Talent</button>
-            <button class="btn warning" onclick="location.href='ogtae.html';">Outgoing Global Teacher</button>
+            <button class="btn warning" onclick="location.href='ogtae.php';">Outgoing Global Teacher</button>
             <button class="btn success" onclick="location.href='ogv.php';">Outgoing Global Volunteer</button>
             <button class="btn blue" onclick="location.href='pm.php';">People Management</button>
-            <button class="btn danger" onclick="location.href='finance.html';">Finance & Legal</button>
-            <button class="btn default" onclick="location.href='bd.html';">Business Development</button>
-            <button class="btn yellow" onclick="location.href='pr.html';">Public Relations</button>
-            <button class="btn ash" onclick="location.href='b2b.html';">B2B & BCXP</button>
-            <button class="btn warning" onclick="location.href='b2c.html';">Digital B2C</button>
-
+            <button class="btn danger" onclick="location.href='finance.php';">Finance & Legal</button>
+            <button class="btn default" onclick="location.href='bd.php';">Business Development</button>
+            <button class="btn yellow" onclick="location.href='pr.php';">Public Relations</button>
+            <button class="btn ash" onclick="location.href='b2b.php';">B2B & BCXP</button>
+            <button class="btn warning" onclick="location.href='b2c.php';">Digital B2C</button>
 
         </div>
-        <!-- <div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
-            <img src="img/encroll-img.jpg" alt="">
-        </div>
-    </div> -->
     </div>
 </section>
-<!-- Enroll section end -->
-
 <br><br>
-
-<!-- Footer section -->
-<footer class="footer-section">
-    <div class="container footer-top">
-        <div class="row">
-            <!-- widget -->
-            <div class="col footer-widget">
-                <div class="about-widget">
-                    <a href="index.php" class="site-logo"><img src="img/ablue.png" align="center"
-                                                               style="width:180px;height:24px;" alt=""></a>
-                    <p>AIESEC is a non-governmental not-for-profit organization in consultative status with the United
-                        Nations Economic and Social Council (ECOSOC), affiliated with the UN DPI, member of ICMYO, and
-                        is recognized by UNESCO. AIESEC International Inc. is registered as a Not-for-profit
-                        Organisation under the Canadian Not-for-profit Corporations Act – 2018-02-08, Corporation
-                        Number: 1055154-6 and Quebec Business Number (NEQ) 1173457178 in Montreal, Quebec, Canada.©
-                        AIESEC 2019 Privacy Policy</p>
-                    <div class="social pt-1">
-                        <a href="https://twitter.com/aieseclk"><i class="fa fa-twitter-square"></i></a>
-                        <a href="https://www.facebook.com/AIESECLK/"><i class="fa fa-facebook-square"></i></a>
-                        <a href="https://www.instagram.com/aiesecsrilanka/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/aieseclk"><i class="fa fa-linkedin-square"></i></a>
-                        <a href="https://www.youtube.com/c/AIESECSriLanka"><i class="fa fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- widget -->
-
-            <!-- widget -->
-
-        </div>
-        <!-- copyright -->
-        <div class="copyright">
-            <div class="container">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                    All rights reserved</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            </div>
-        </div>
-</footer>
-<!-- Footer section end-->
+<?php
+renderFooter();
+?>
 
 
 <!--====== Javascripts & Jquery ======-->

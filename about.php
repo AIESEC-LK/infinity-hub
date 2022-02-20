@@ -21,61 +21,17 @@
     <link rel="stylesheet" href="css/owl.carousel.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 
-
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 <body>
-<!-- Page Preloder -->
 
+<?php
+require 'common.php';
+renderNavbar("", "active", "", "", "")
+?>
 
-<!-- header section -->
-
-<!-- header section end-->
-
-
-<!-- Header section  -->
-<nav class="navbar navbar-expand-lg nav-section">
-    <a class="navbar-brand" href="index.php">
-        <img src="img/logo.png" style="height: 30px; padding-left: 30px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars" style="color:#f6783a" aria-hidden="true"></i>
-    </button>
-    <div  class="collapse navbar-collapse" id="navbarSupportedContent" >
-
-        <ul class="main-menu">
-            <li ><a href="index.php">Home</a></li>
-            <li class="nav-item dropdown active">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">About Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="about.html">Who We Are</a>
-                    <a class="dropdown-item" href="aiesecway.html">AIESEC Way</a>
-                    <a class="dropdown-item" href="roadmap.html">Roadmap</a>
-                    <!--                    <a class="dropdown-item" href="#">History</a>-->
-                </div>
-            </li>
-
-            <li><a href="conference.html">Conferences & Output</a></li>
-            <li><a href="functional-knowledge.html">Functional Knowledge</a></li>
-            <li class="nav-item dropdown">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Contact Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="contact.html">Meet the Team</a>
-                    <a class="dropdown-item" href="channels.html">Our Channels</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-
-<!-- Breadcrumb section -->
 <div class="site-breadcrumb">
     <div class="container">
         <a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
@@ -84,11 +40,6 @@
         <span>Who We Are</span>
     </div>
 </div>
-
-
-<!-- Team section end -->
-.
-
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -105,28 +56,12 @@
         margin: 30px;
         align-items: center;
     }
-
-
-    /* Blue */
-    .info {
-        border-color: #212031;
-        color: #212031;
-    }
-
-    .info:hover {
-        background: #212031;
-        color: white;
-    }
-
-
 </style>
-
-
 <section class="blog-page-section spad pt-0">
     <div class="container">
         <div class="row text-center pb-5">
-            <div class="col col-lg-12 col-md-12 " >
-                <h3 >
+            <div class="col col-lg-12 col-md-12 ">
+                <h3>
                     WHO WE ARE</h3>
             </div>
         </div>
@@ -176,7 +111,6 @@
 </section>
 
 
-
 <div class="section-title text-center" name="a2025" id="a2025">
     <h2>AIESEC 2025</h2>
 
@@ -205,9 +139,6 @@
             </div>
         </div>
     </div>
-
-
-
 
 
     <div class="row">
@@ -296,46 +227,9 @@
 
 </section>
 
-<!-- Footer section -->
-<footer class="footer-section">
-    <div class="container footer-top">
-        <div class="row">
-            <!-- widget -->
-            <div class="col footer-widget">
-                <div class="about-widget">
-                    <a href="index.php" class="site-logo"><img src="img/ablue.png" align="center"
-                                                               style="width:180px;height:24px;" alt=""></a>
-                    <p>AIESEC is a non-governmental not-for-profit organization in consultative status with the United
-                        Nations Economic and Social Council (ECOSOC), affiliated with the UN DPI, member of ICMYO, and
-                        is recognized by UNESCO. AIESEC International Inc. is registered as a Not-for-profit
-                        Organisation under the Canadian Not-for-profit Corporations Act – 2018-02-08, Corporation
-                        Number: 1055154-6 and Quebec Business Number (NEQ) 1173457178 in Montreal, Quebec, Canada.©
-                        AIESEC 2019 Privacy Policy</p>
-                    <div class="social pt-1">
-                        <a href="https://twitter.com/aieseclk"><i class="fa fa-twitter-square"></i></a>
-                        <a href="https://www.facebook.com/AIESECLK/"><i class="fa fa-facebook-square"></i></a>
-                        <a href="https://www.instagram.com/aiesecsrilanka/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/aieseclk"><i class="fa fa-linkedin-square"></i></a>
-                        <a href="https://www.youtube.com/c/AIESECSriLanka"><i class="fa fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- widget -->
-
-            <!-- widget -->
-
-        </div>
-        <!-- copyright -->
-        <div class="copyright">
-            <div class="container">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                    All rights reserved</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            </div>
-        </div>
-</footer>
-<!-- Footer section end-->
+<?php
+renderFooter();
+?>
 
 
 <!--====== Javascripts & Jquery ======-->

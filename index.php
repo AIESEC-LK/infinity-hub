@@ -22,61 +22,17 @@
     <link rel="stylesheet" href="css/style.css"/>
 
 
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 <body>
-<!-- Page Preloder -->
 
+<?php
+require 'common.php';
+renderNavbar("active", "", "", "", "");
+?>
 
-<!-- header section -->
-
-<!-- header section end-->
-
-
-<!-- Header section  -->
-<nav class="navbar navbar-expand-lg nav-section">
-    <a class="navbar-brand" href="index.php">
-        <img src="img/logo.png" style="height: 30px; padding-left: 30px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars" style="color:#f6783a" aria-hidden="true"></i>
-    </button>
-    <div  class="collapse navbar-collapse" id="navbarSupportedContent" >
-
-        <ul class="main-menu">
-            <li class="active"><a href="index.php">Home</a></li>
-            <li class="nav-item dropdown">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">About Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="about.html">Who We Are</a>
-                    <a class="dropdown-item" href="aiesecway.html">AIESEC Way</a>
-                    <a class="dropdown-item" href="roadmap.html">Roadmap</a>
-                    <!--                    <a class="dropdown-item" href="#">History</a>-->
-                </div>
-            </li>
-
-            <li><a href="conference.html">Conferences & Output</a></li>
-            <li><a href="functional-knowledge.html">Functional Knowledge</a></li>
-            <li class="nav-item dropdown">
-                <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Contact Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="contact.html">Meet the Team</a>
-                    <a class="dropdown-item" href="channels.html">Our Channels</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
-<!-- Header section end -->
-
-
-<!-- Hero section -->
 <section class="hero-section">
 
     <div class="hero-slider owl-carousel">
@@ -94,28 +50,17 @@
                                 You can find all the information regarding AIESEC, its products, and about conference
                                 outputs.
                                 Take a tour around and get the most out of it!</p>
-                            <a href="functional-knowledge.html" style="color:white;"><div class="site-btn">GET
-                                    STARTED</div></a>
+                            <a href="functional-knowledge.php" style="color:white;">
+                                <div class="site-btn">GET
+                                    STARTED
+                                </div>
+                            </a>
 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="hs-item set-bg" data-setbg="img/hero-slider/2.jpg">
-            <div class="hs-text">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="hs-subtitle">Award Winning UNIVERSITY</div>
-                            <h2 class="hs-title">An investment in knowledge pays the best interest.</h2>
-                            <p class="hs-des">Education is not just about going to school and getting a degree. It's about widening your<br> knowledge and absorbing the truth about life. Knowledge is power.</p>
-                            <div class="site-btn">GET STARTED</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </div>
 </section>
 <!-- Hero section end -->
@@ -203,49 +148,10 @@
         </div>
     </div>
 </section>
-<!-- Services section end -->
+<?php
+renderFooter();
+?>
 
-
-<!-- Footer section -->
-<footer class="footer-section">
-    <div class="container footer-top">
-        <div class="row">
-            <!-- widget -->
-            <div class="col footer-widget">
-                <div class="about-widget">
-                    <a href="index.php" class="site-logo"><img src="img/ablue.png" align="center"
-                                                               style="width:180px;height:24px;" alt=""></a>
-                    <p>AIESEC is a non-governmental not-for-profit organization in consultative status with the United
-                        Nations Economic and Social Council (ECOSOC), affiliated with the UN DPI, member of ICMYO, and
-                        is recognized by UNESCO. AIESEC International Inc. is registered as a Not-for-profit
-                        Organisation under the Canadian Not-for-profit Corporations Act – 2018-02-08, Corporation
-                        Number: 1055154-6 and Quebec Business Number (NEQ) 1173457178 in Montreal, Quebec, Canada.©
-                        AIESEC 2019 Privacy Policy</p>
-                    <div class="social pt-1">
-                        <a href="https://twitter.com/aieseclk"><i class="fa fa-twitter-square"></i></a>
-                        <a href="https://www.facebook.com/AIESECLK/"><i class="fa fa-facebook-square"></i></a>
-                        <a href="https://www.instagram.com/aiesecsrilanka/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/aieseclk"><i class="fa fa-linkedin-square"></i></a>
-                        <a href="https://www.youtube.com/c/AIESECSriLanka"><i class="fa fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- widget -->
-
-            <!-- widget -->
-
-        </div>
-        <!-- copyright -->
-        <div class="copyright">
-            <div class="container">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                    All rights reserved</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            </div>
-        </div>
-</footer>
-<!-- Footer section end-->
 
 
 <!--====== Javascripts & Jquery ======-->
