@@ -21,49 +21,17 @@
     <link rel="stylesheet" href="css/owl.carousel.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 
-
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 <body>
-<!-- Page Preloder -->
 
+<?php
+require 'common.php';
+renderNavbar("", "active", "", "", "")
+?>
 
-<!-- header section -->
-
-<!-- header section end-->
-
-
-<!-- Header section  -->
-<nav class="nav-section ">
-
-    <div class="container">
-
-        <ul class="main-menu">
-            <li class=""><a href="index.php">Home</a></li>
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">About Us</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="about.html">Who We Are</a>
-                    <a class="dropdown-item" href="aiesecway.html">AIESEC Way</a>
-                    <a class="dropdown-item" href="#">Roadmap</a>
-                    <a class="dropdown-item" href="#">History</a>
-                </div>
-            </li>
-
-            <li><a href="conference.html">Conferences & Output</a></li>
-            <li><a href="functional-knowledge.html">Functional Knowledge</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </div>
-</nav>
-
-
-<!-- Breadcrumb section -->
 <div class="site-breadcrumb">
     <div class="container">
         <a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
@@ -72,11 +40,6 @@
         <span>Who We Are</span>
     </div>
 </div>
-
-
-<!-- Team section end -->
-.
-
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -93,28 +56,12 @@
         margin: 30px;
         align-items: center;
     }
-
-
-    /* Blue */
-    .info {
-        border-color: #212031;
-        color: #212031;
-    }
-
-    .info:hover {
-        background: #212031;
-        color: white;
-    }
-
-
 </style>
-
-
 <section class="blog-page-section spad pt-0">
     <div class="container">
         <div class="row text-center pb-5">
-            <div class="col col-lg-12 col-md-12 " >
-                <h3 >
+            <div class="col col-lg-12 col-md-12 ">
+                <h3>
                     WHO WE ARE</h3>
             </div>
         </div>
@@ -164,7 +111,6 @@
 </section>
 
 
-
 <div class="section-title text-center" name="a2025" id="a2025">
     <h2>AIESEC 2025</h2>
 
@@ -190,46 +136,6 @@
                     its members around the world towards one goal. You are living very memorable moment of AIESEC as
                     organization. Only once in a few years there is a planning process happens for next semi decade.
                     Below you can find all information about AIESEC 2025.</p>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="post-item post-details">
-                <img src="img/aiesec/1.jpg" class="post-thumb-full">
-
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="post-item post-details">
-                <img src="img/aiesec/2.jpg" class="post-thumb-full">
-
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="post-item post-details">
-                <img src="img/aiesec/3.jpg" class="post-thumb-full">
-
-            </div>
-        </div>
-    </div>
-
-    <div class="row" style="top: 50%">
-        <div class="col-md-4">
-            <div class="post-item post-details">
-                <img src="img/aiesec/s1.jpg" class="post-thumb-full">
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="post-item post-details">
-                <img src="img/aiesec/s2.jpg" class="post-thumb-full">
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="post-item post-details">
-                <img src="img/aiesec/s3.jpg" class="post-thumb-full">
             </div>
         </div>
     </div>
@@ -321,46 +227,9 @@
 
 </section>
 
-<!-- Footer section -->
-<footer class="footer-section">
-    <div class="container footer-top">
-        <div class="row">
-            <!-- widget -->
-            <div class="col footer-widget">
-                <div class="about-widget">
-                    <a href="index.php" class="site-logo"><img src="img/ablue.png" align="center"
-                                                               style="width:180px;height:24px;" alt=""></a>
-                    <p>AIESEC is a non-governmental not-for-profit organization in consultative status with the United
-                        Nations Economic and Social Council (ECOSOC), affiliated with the UN DPI, member of ICMYO, and
-                        is recognized by UNESCO. AIESEC International Inc. is registered as a Not-for-profit
-                        Organisation under the Canadian Not-for-profit Corporations Act – 2018-02-08, Corporation
-                        Number: 1055154-6 and Quebec Business Number (NEQ) 1173457178 in Montreal, Quebec, Canada.©
-                        AIESEC 2019 Privacy Policy</p>
-                    <div class="social pt-1">
-                        <a href="https://twitter.com/aieseclk"><i class="fa fa-twitter-square"></i></a>
-                        <a href="https://www.facebook.com/AIESECLK/"><i class="fa fa-facebook-square"></i></a>
-                        <a href="https://www.instagram.com/aiesecsrilanka/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/aieseclk"><i class="fa fa-linkedin-square"></i></a>
-                        <a href="https://www.youtube.com/c/AIESECSriLanka"><i class="fa fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- widget -->
-
-            <!-- widget -->
-
-        </div>
-        <!-- copyright -->
-        <div class="copyright">
-            <div class="container">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                    All rights reserved</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            </div>
-        </div>
-</footer>
-<!-- Footer section end-->
+<?php
+renderFooter();
+?>
 
 
 <!--====== Javascripts & Jquery ======-->
