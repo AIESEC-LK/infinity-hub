@@ -54,10 +54,9 @@ renderNavbar("", "", "active", "", "")
                 color: black;
                 padding: 14px 28px;
                 font-size: 14px;
-                font: bold;
                 cursor: pointer;
                 width: 240px;
-                height: 5 0px;
+                height: 50px;
                 margin: 10px;
                 margin-bottom: 50px;
             }
@@ -74,6 +73,7 @@ renderNavbar("", "", "active", "", "")
             }
 
         </style>
+        <button class="btn success" onclick="location.href='#NatCon22';" align="center">NatCon 2022</button>
         <button class="btn success" onclick="location.href='#ic21';" align="center">IC 2021</button>
         <button class="btn success" onclick="location.href='#nlds21';" align="center">NLDS 2021</button>
         <button class="btn success" onclick="location.href='#impactco20';" align="center">Impactco 2020</button>
@@ -87,6 +87,46 @@ renderNavbar("", "", "active", "", "")
 </div>
 </section>
 <section class="blog-page-section spad pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="post-item post-details">
+                    <img src="img/conf/Natcon.png" width="110%" style="height: 400px" class="post-thumb-full">
+                    <div class="post-content">
+                        <h3><a href="single-blog.html"></a></h3>
+                        <div class="post-meta">
+                        </div>
+                        <div class="tag"></div>
+                    </div>
+                    <div class="post-author">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
+                <div class="widget" name="NatCon22" id="NatCon22" alt="">
+                    &nbsp
+                    <h4 class="widget-title">NatCon 2022</h4>
+                    <p>NatCon is the largest conference in AIESEC Sri Lanka . It paves the way for you to find the hidden leader in you while enjoying yourself with your
+                        virtually met friends  and whole new friends who are from different entities of AIESEC .
+                        The conference will primarily focus on strengthening AIESEC membership understanding and empowering
+                        individuals to discover the true leader inside themselves.It will be a life-changing experience for you, in which you will recognize yourself
+                        as a young leader who is transforming the world and fulfilling AIESEC’s vision.</p>
+                </div>
+                <div class="widget">
+                    <h4 class="widget-title"></h4>
+                    <div class="tags">
+                        <a href="https://drive.google.com/drive/folders/1xqMONZWwNq6bpFFM6Ij_dgiJNxyC1ayR?usp=sharing">Day
+                            1</a>
+                        <a href="https://drive.google.com/drive/folders/1dtsMpwWCZC4INrX9lxUUXLXtEdYxMn8p?usp=sharing">Day
+                            2</a>
+                        <a href="https://drive.google.com/drive/folders/1KJN05B4hN6GqikhWvG_t2g6a4WktlzCC?usp=sharing">Day
+                            3</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
