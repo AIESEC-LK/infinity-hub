@@ -73,6 +73,8 @@ renderNavbar("", "", "active", "", "")
             }
 
         </style>
+        <button class="btn success" onclick="location.href='#bdsummit2022';" align="center">BD summit 2022</button>
+        <button class="btn success" onclick="location.href='#excon2022';" align="center">ExCon 2022</button>
         <button class="btn success" onclick="location.href='#NatCon22';" align="center">NatCon 2022</button>
         <button class="btn success" onclick="location.href='#ic21';" align="center">IC 2021</button>
         <button class="btn success" onclick="location.href='#nlds21';" align="center">NLDS 2021</button>
@@ -87,6 +89,74 @@ renderNavbar("", "", "active", "", "")
 </div>
 </section>
 <section class="blog-page-section spad pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="post-item post-details">
+                    <img src="img/conf/busimmit.JPG" width="110%" style="height: 400px" class="post-thumb-full">
+                    <div class="post-content">
+                        <h3><a href="single-blog.html"></a></h3>
+                        <div class="post-meta">
+                        </div>
+                        <div class="tag"></div>
+                    </div>
+                    <div class="post-author">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
+                <div class="widget" name="bdsummit2022" id="bdsummit2022" alt="">
+                    &nbsp
+                    <h4 class="widget-title">BD Summit 2022</h4>
+                    <p> The BD summit held on September 2022 organized by AIESEC in Sri Lanka, focused on giving away knowledge on BD sustainability and account management.</p>
+                </div>
+                <div class="widget">
+                    <h4 class="widget-title"></h4>
+                    <div class="tags">
+                        <a href="https://drive.google.com/drive/folders/1XBlBsD3mCFcQ4psgRN9WiYL9imI4XBJ1?usp=sharing">Day
+                            1</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="post-item post-details">
+                    <img src="img/conf/excon2022.jpg" width="110%" style="height: 400px" class="post-thumb-full">
+                    <div class="post-content">
+                        <h3><a href="single-blog.html"></a></h3>
+                        <div class="post-meta">
+                        </div>
+                        <div class="tag"></div>
+                    </div>
+                    <div class="post-author">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
+                <div class="widget" name="excon2022" id="excon2022" alt="">
+                    &nbsp
+                    <h4 class="widget-title">ExCon 2022</h4>
+                    <p> ExCon is the Exclusive Initiative Group National Conference by AIESEC Sri Lanka.
+                        It's a platform for the Initiative Group Membership to have a holistic understanding of AIESEC Sri Lanka, make them aware of the core of AIESEC,
+                        empower them to become value-driven leaders and, most importantly, to make lifelong friend.</p>
+                </div>
+                <div class="widget">
+                    <h4 class="widget-title"></h4>
+                    <div class="tags">
+                        <a href="https://drive.google.com/drive/folders/1-wbYjzrwaAh8I7jsT6WgLxCIVvesYTfU?usp=sharing">Day
+                            1</a>
+                        <a href="https://drive.google.com/drive/folders/1eTYPHbsvm1lkJmV9lOl1wQjD3OyaXP84?usp=sharing ">Day
+                            2</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
