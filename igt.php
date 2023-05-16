@@ -28,19 +28,20 @@
 </head>
 <body>
 <?php
-require 'navbar.php';
+require 'common.php';
 renderNavbar("", "", "", "active", "")
 ?>
 <div class="site-breadcrumb">
     <div class="container">
         <a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
         <a href="Functional-knowledge.php"><i></i> Functional Knowledge</a> <i class="fa fa-angle-right"></i>
-        <span>Public Relations</span>
+        <span>Incoming Global Talent</span>
     </div>
 </div>
-<h2 class="hs-title" align="center">Public Relations</h2>
+<h2 class="hs-title" align="center">Incoming Global Talent</h2>
 <br>
-<section class="enroll-section spad set-bg" data-setbg="img/Blog/7.jpg">
+
+<section class="enroll-section spad set-bg" data-setbg="img/Blog/5bg.png">
     <div class="container">
         <div class="row">
             <style>
@@ -55,45 +56,18 @@ renderNavbar("", "", "", "active", "")
                 }
             </style>
 
-            <div class="col-lg-6">
+            <?php
+            include __DIR__ . '/getFunctions.php';
 
-                <div class="enroll-list text-white">
-                    <div class="enroll-list-item">
-                        <span>1</span>
+            echo getTopics(406518133777);
+            ?>
 
-                        <ul><h5><a
-                                href="https://drive.google.com/file/d/1uM-hd1ly9RrvBRazs5et6kKfENub7X6x/view?usp=sharing">
-                            Representing AIESEC</a></h5></ul>
-
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-6">
-
-                <div class="enroll-list text-white">
-                    <div class="enroll-list-item">
-                        <span>2</span>
-
-
-                        <ul><h5><a
-                                href="https://drive.google.com/file/d/1g9I65H4ZnmOs3Hi8QO2MHkG2IFdPlYdR/view?usp=sharing">
-                            What is PR</a></h5></ul>
-
-                    </div>
-                </div>
-
-            </div>
         </div>
-    </div>
 </section>
 <br> <br>
 <?php
 renderFooter();
 ?>
-
 <!--====== Javascripts & Jquery ======-->
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>

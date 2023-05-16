@@ -304,6 +304,7 @@ ol {
 
 .nav-section {
 	background: #020031;
+	padding: 0;
 }
 
 .nav-section .nav-right {
@@ -1768,7 +1769,7 @@ ol {
 		padding-bottom: 20px;
 	}
 	.main-menu {
-		display: none;
+		/*display: none;*/
 	}
 	.main-menu li {
 		display: block;
@@ -2002,7 +2003,7 @@ ol {
     cursor: pointer;
 }
 
-/* Green */
+
 .success {
     border-color: #4CAF50;
     color: green;
@@ -2011,4 +2012,117 @@ ol {
 }
 .mc-font{
 	color:#10506B
+}
+.twitter path{
+	fill:#AAB8C2;
+}
+.twitter:hover path{
+	--col1:#AAB8C2;
+	--col2:#1DA1F2;
+	animation:hov 300ms ease-in forwards;
+}
+.facebook path{
+	fill:#AAB8C2;
+}
+.facebook:hover path{
+	--col1:#AAB8C2;
+	--col2:#4267B2;
+	animation:hov 300ms ease-in forwards;
+}
+.yt path{
+	fill:#AAB8C2;
+}
+.yt:hover path{
+	--col1:#AAB8C2;
+	--col2:#FF0000;
+	animation:hov 300ms ease-in forwards;
+}
+.spot path{
+	fill:#AAB8C2;
+}
+.spot:hover path{
+	--col1:#AAB8C2;
+	--col2:#1DB954;
+	animation:hov 300ms ease-in forwards;
+}
+.linkedin path{
+	fill:#AAB8C2;
+}
+.linkedin:hover path{
+	--col1:#AAB8C2;
+	--col2:#2867B2;
+	animation:hov 300ms ease-in forwards;
+}
+.insta path{
+	fill:#AAB8C2;
+}
+.insta:hover path{
+	animation: instahov 1s ease-in forwards;
+}
+.tick path{
+	fill:#AAB8C2;
+}
+.tick:hover path{
+
+	animation:tickhov 600ms ease-in forwards;
+}
+
+/*Roadmap styles*/
+
+.color-white{
+	color: white;!important;
+}
+.image-box{
+	display: flex;
+	justify-content: center;
+}
+.image-box2{
+	display: flex;
+	justify-content: center;
+	height: 55%;
+}
+
+
+.bluebox{
+	border-radius:15px;
+	padding: 20px;
+	background: rgb(71,180,245);
+	background: linear-gradient(47deg, rgba(71,180,245,1) 0%, rgba(19,142,244,1) 100%);
+}
+.greenbox{
+	border-radius:15px;
+	padding: 20px;
+	background: rgb(122,214,154);
+	background: linear-gradient(47deg, rgba(122,214,154,1) 0%, rgba(62,179,153,1) 100%);
+
+}
+.orangebox{
+	border-radius:15px;
+	padding: 20px;
+	background: rgb(254,167,12);
+	background: linear-gradient(47deg, rgba(255,188,51,1) 0%, rgba(250,145,8,1) 100%);
+
+}
+.lm-btn{
+
+}
+@keyframes hov {
+	0%{fill:var(--col1)}
+	100%{fill:var(--col2)}
+}
+@keyframes instahov {
+	0%{fill:#AAB8C2}
+	10%{fill:#FFDC80}
+	30%{fill:#F77737}
+	50%{fill:#FD1D1D}
+	70%{fill:#C13584}
+	100%{fill:#5B51D8}
+
+}
+@keyframes tickhov {
+	0%{fill:#AAB8C2}
+	30%{fill:#69C9D0}
+	40%{fill:#EE1D52}
+	50%{fill:#00000}
+	100%{fill:#000000}
 }
