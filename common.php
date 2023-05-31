@@ -1,7 +1,7 @@
 <?php
 function renderNavbar($index_active, $about_active, $conf_active, $fk_active, $contact_active)
 {
-    echo('
+	echo ('
     <nav class="navbar navbar-expand-lg nav-section">
     <a class="navbar-brand" href="index.php">
         <img src="img/logo.png" style="height: 30px; padding-left: 30px">
@@ -13,7 +13,7 @@ function renderNavbar($index_active, $about_active, $conf_active, $fk_active, $c
 
         <ul class="main-menu">
             <li class=' . $index_active . '><a href="index.php">Home</a></li>
-            <li class="nav-item dropdown '.$about_active. '">
+            <li class="nav-item dropdown ' . $about_active . '">
                 <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">About Us</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
@@ -23,23 +23,23 @@ function renderNavbar($index_active, $about_active, $conf_active, $fk_active, $c
                 </div>
             </li>
 
-            <li class='.$conf_active.'><a href="conference.php">Conferences & Output</a></li>
-            <li class='.$fk_active. '><a href="functional-knowledge.php">Functional Knowledge</a></li>
-            <li class="nav-item dropdown ' .$contact_active. '">
+            <li class=' . $conf_active . '><a href="conference.php">Conferences & Output</a></li>
+            <li class=' . $fk_active . '><a href="functional-knowledge.php">Functional Knowledge</a></li>
+            <li class="nav-item dropdown ' . $contact_active . '">
                 <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">Contact Us</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #020031">
-                    <a class="dropdown-item" href="contact.php">Meet the Team</a>
                     <a class="dropdown-item" href="channels.php">Our Channels</a>
                 </div>
             </li>
         </ul>
     </div>
     </nav>'
-    );
+	);
 }
-function renderFooter(){
-    echo('<footer class="footer-section">
+function renderFooter()
+{
+	echo ('<footer class="footer-section">
     <div class="container footer-top">
         <div class="row">
             <div class="col footer-widget">
