@@ -74,7 +74,6 @@
 					color: white;
 				}
 			</style>
-			x
 			<!-- MC 22.23-->
 			<button class="btn success" onclick="location.href='#natcon2023';" align="center">NatCon 2023</button>
 			<button class="btn success" onclick="location.href='#nps2023jan';" align="center">NPS 2023 January</button>
