@@ -74,9 +74,17 @@
 					color: white;
 				}
 			</style>
+			<!-- MC 24.25-->
+			<button class="btn success" onclick="location.href='#bdsummit2024';" align="center">BD Summit 2024</button>
+			
+			<!-- MC 23.24-->
+			<button class="btn success" onclick="location.href='#nps2023jul';" align="center">NPS Janurary 2024</button>
+			<button class="btn success" onclick="location.href='#nlds2023';" align="center">NLDS 2023</button>
+			<button class="btn success" onclick="location.href='#nps2023jul';" align="center">NPS July 2023</button>
+			
 			<!-- MC 22.23-->
 			<button class="btn success" onclick="location.href='#natcon2023';" align="center">NatCon 2023</button>
-			<button class="btn success" onclick="location.href='#nps2023jan';" align="center">NPS 2023 January</button>
+			<button class="btn success" onclick="location.href='#nps2023jan';" align="center">NPS January 2023</button>
 			<button class="btn success" onclick="location.href='#nlds2022';" align="center">NLDS 2022</button>
 			<button class="btn success" onclick="location.href='#eps2022aug';" align="center">EPS 2022 August</button>
 			<button class="btn success" onclick="location.href='#bdsummit2022';" align="center">BD Summit 2022</button>
@@ -93,7 +101,168 @@
 	</div>
 	</section>
 	<section class="blog-page-section spad pt-0">
+	    
+	    
+	    <!-- BD Summit 2024 End -->
+	    <div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="post-item post-details">
+						<img src="img/conf/bdsummit24.jpg" width="110%" style="height: 475px" class="post-thumb-full">
+						<div class="post-content">
+							<h3><a href="single-blog.html"></a></h3>
+							<div class="post-meta">
+							</div>
+							<div class="tag"></div>
+						</div>
+						<div class="post-author">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
+					<div class="widget" name="bdsummit2024" id="bdsummit2024" alt="">
+						&nbsp
+						<h4 class="widget-title">BD Summit 2024</h4>
+						<p> You can find the output of the BD Summit 2024 of AIESEC in Sri Lanka here. BD Summit was conducted on 4th May 2024 at Unilever Sri Lanka with a participation of 70+ members with the objective of enhancing the Business Development knowledge of the membership. Hope you'd be able to learn about this amazing function through this content. </p>
+						<br>
+						<p>Happy Learning!</p>
+					</div>
+					<div class="widget">
+						<h4 class="widget-title"></h4>
+						<div class="tags">
+							<a target="_blank" href="https://360.aiesec.lk/r/bd-summit-24-agenda">Agenda</a>
+							<a target="_blank" href="https://360.aiesec.lk/r/bd-summit24-output">Output</a>
+						</div>
+					</div>
 
+				</div>
+			</div>
+		</div>
+	    <!-- BD Summit 2024 End -->
+        
+        <!-- NPS 2024 Start -->
+        <div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="post-item post-details">
+						<img src="img/nps2024-jan2.jpg" width="110%" style="height: 475px" class="post-thumb-full">
+						<div class="post-content">
+							<h3><a href="single-blog.html"></a></h3>
+							<div class="post-meta">
+							</div>
+							<div class="tag"></div>
+						</div>
+						<div class="post-author">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
+					<div class="widget" name="nps2024jan" id="nps2024jan" alt="">
+						&nbsp
+						<h4 class="widget-title">National Planning Summit - January 2024</h4>
+						<p>
+							Here you will find the output of the National Planning Summit which was conducted the Executive Boards 24.25 from 11th - 14th January 2024 at Meth Arana, Malabe. Hope this content will be valuable to you.
+							</br>
+							</br>
+							Happy Learning!
+						</p>
+					</div>
+					<div class="widget">
+						<h4 class="widget-title"></h4>
+						<div class="tags">
+							<a target="_blank" href="https://docs.google.com/spreadsheets/d/1R8-7U0jYCfPW81UokuwQOaZIh85GxFu4JPweHBrElSU/edit?usp=sharing">Agenda</a>
+							<a target="_blank" href="https://drive.google.com/drive/folders/1AiGZOdvTwwuvh66dpm68Y9mxysjxSR5c?usp=sharing">Output</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+        
+        <!-- NPS 2024 End -->
+        
+	    <!-- NLDS 2023 Start -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="post-item post-details">
+						<img src="img/nlds2023.jpg" width="110%" style="height: 475px" class="post-thumb-full">
+						<div class="post-content">
+							<h3><a href="single-blog.html"></a></h3>
+							<div class="post-meta">
+							</div>
+							<div class="tag"></div>
+						</div>
+						<div class="post-author">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
+					<div class="widget" name="nlds2022" id="nlds2022" alt="">
+						&nbsp
+						<h4 class="widget-title">National Leadership Development Seminar 2023</h4>
+						<p>
+							Here you can find the output of the National Leadership Development Seminar 2023 of AIESEC in Sri Lanka. The conference was conducted from 13th - 15th October 2023 at Hotel Carolina, Chilaw, Sri Lanka with the participation of 200+ delegates representing nine local entities. Hope this would be helpful to you in enhancing your AIESEC knowledge and also personal values.
+							</br>
+							</br>
+							Happy Learning!
+						</p>
+					</div>
+					<div class="widget">
+						<h4 class="widget-title"></h4>
+						<div class="tags">
+							<a target="_blank" href="https://360.aiesec.lk/r/nlds23-output-agenda">Agenda</a>
+							<a target="_blank" href="https://360.aiesec.lk/r/nlds23-output">Output</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- NLDS 2023 End -->
+		
+		<!-- NPS 2023 Start -->
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="post-item post-details">
+						<img src="img/nps2023-jul.png" width="110%" style="height: 475px" class="post-thumb-full">
+						<div class="post-content">
+							<h3><a href="single-blog.html"></a></h3>
+							<div class="post-meta">
+							</div>
+							<div class="tag"></div>
+						</div>
+						<div class="post-author">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8 col-md-5 col-lg-4 col-xl-3 offset-xl-1 offset-0 pl-xl-0 sidebar">
+					<div class="widget" name="nps2023jul" id="nps2023jul" alt="">
+						&nbsp
+						<h4 class="widget-title">National Planning Summit - July 2023</h4>
+						<p>
+							Here you will find the output of the National Planning Summit which was conducted the Executive Boards 23.24 from 29th - 31st July 2023 at Subodhi, Moratuwa. Hope this content will be valuable to you.
+							</br>
+							</br>
+							Happy Learning!
+						</p>
+					</div>
+					<div class="widget">
+						<h4 class="widget-title"></h4>
+						<div class="tags">
+							<a target="_blank" href="https://docs.google.com/spreadsheets/d/12hMt5pOzaHmxP9rAHjxBwisA1tVkxmMG2bL3vMoHMp8/edit#gid=854886263">Agenda</a>
+							<a target="_blank" href="http://360.aiesec.lk/r/nps-july-2023-output">Output</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+        <!-- NPS 2023 Start -->
+        
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
